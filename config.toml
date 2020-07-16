@@ -17,10 +17,10 @@ pygmentscodefencesguesssyntax = true
     author = "Himanshu Warekar"
     description = "Himanshu Warekar's Portfolio"
     keywords = "blog,developer,personal,portfolio,himanshu,warekar,resume"
-    info = "Developer"
+    info = "Developer at Frappe Tech"
     avatarurl = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = ""
+    footercontent = "Built using Hugo"
 
     dateformat = "January 2, 2006"
 
@@ -70,29 +70,23 @@ pygmentscodefencesguesssyntax = true
     weight = 1
     url = "https://github.com/hrwx/"
 [[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab"
-    weight = 2
-    url = "https://gitlab.com/hrwx/"
-[[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin-in"
-    weight = 4
+    weight = 2
     url = "https://www.linkedin.com/in/himanshu-warekar/"
-[[params.social]]
-    name = "Dev"
-    icon = "fab fa-dev"
-    weight = 5
-    url = "https://medium.com/@johndoe"
-[[params.social]]
-    name = "Telegram"
-    icon = "fab fa-telegram"
-    weight = 6
-    url = "https://medium.com/@johndoe"
-
+#[[params.social]]
+#    name = "Dev"
+#    icon = "fab fa-dev"
+#    weight = 3
+#    url = "https://medium.com/@johndoe"
+#[[params.social]]
+#    name = "Telegram"
+#    icon = "fab fa-telegram"
+#    weight = 4
+#    url = "https://medium.com/@johndoe"
 
 # Menu links
-#[[menu.main]]
-#    name = "Resume"
-#    weight = 1
-#    url  = "/resume/"
+[[menu.main]]
+    name = "Resume"
+    weight = 1
+    url  = "https://raw.githubusercontent.com/hrwx/resume/master/Re%CC%81sume%CC%81.pdf"
